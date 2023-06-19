@@ -8,6 +8,9 @@ public class Main {
         list.add("Евгений", "Басист", 32);
         list.add("Ортем", "Второй рот группы", 36);
         list.add("Сега", "Певец ртом", 35);
-        list.print();
+
+        while (list.getSize() >= 0){
+            System.out.println(list.print());
+        }
     }
 }

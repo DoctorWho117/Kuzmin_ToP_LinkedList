@@ -17,7 +17,7 @@ public class List {
         size++;
     }
 
-    public String print() {
+    public String toString() {
         ProfileList temp = head;
 
         if (head == null) {

@@ -10,7 +10,7 @@ public class Main {
         list.add("Сега", "Певец ртом", 35);
 
         while (list.getSize() >= 0){
-            System.out.println(list.print());
+            System.out.println(list.toString());
         }
     }
 }
